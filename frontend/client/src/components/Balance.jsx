@@ -1,0 +1,11 @@
+import React from 'react'
+
+export default function Balance({amount}) {
+  return (
+    <div className='text-black flex'>
+
+      <div className='font-bold text-lg'>Your balance</div>
+      <div className='font-semibold ml-4 text-lg'>Rs {amount}</div>
+    </div>
+  )
+}
